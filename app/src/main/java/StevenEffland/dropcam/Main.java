@@ -11,6 +11,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.StevenEffland.dropcam.R;
+
 
 public class Main extends Activity implements SensorEventListener {
 
