@@ -15,7 +15,8 @@
         android:text="@string/xval"
         android:id="@+id/textView"
         android:layout_centerVertical="true"
-        android:layout_toLeftOf="@+id/textView2" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,6 +33,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/zval"
         android:id="@+id/textView3"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/textView2" />
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
