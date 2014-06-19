@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">DropCam</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="xval">X</string>
+    <string name="yval">Y</string>
+    <string name="zval">Z</string>
     <string name="action_settings">Settings</string>
 
 </resources>

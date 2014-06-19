@@ -9,8 +9,29 @@
     tools:context=".Main">
 
     <TextView
-        android:text="@string/hello_world"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/xval"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView2" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/yval"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/zval"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView2" />
 </RelativeLayout>
