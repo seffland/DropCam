@@ -2,6 +2,7 @@ package com.StevenEffland.dropcam;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -71,6 +72,7 @@ public class Main extends Activity implements SensorEventListener {
             tvZ.setText(Float.toString(deltaZ));
             }
         double g = Math.sqrt(x*x+y*y+z*z);
+        if(g < 3) findViewById(R.id.textView4).setBackgroundColor(Color.RED);
         TextView tvG = (TextView)findViewById(R.id.textView4);
         tvG.setText(Double.toString(g));
     }
